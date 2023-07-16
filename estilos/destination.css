@@ -1,0 +1,75 @@
+User
+@charset "UTF-8";
+
+:root{
+    --cor01: #000080;
+    --cor02: #191970;
+    --cor03: #f8f8f8;
+    --cor04: #333333;
+    --cor05: #FFFF00 ;
+
+    --font01: 'Poppins', sans-serif;
+    --font02: 'Raleway', sans-serif;
+    --font03: 'Ubuntu', sans-serif;
+}
+
+main > article > div > div#saopaulo{
+    background: blue url(../imagens/sao_paulo.jpg)  no-repeat center bottom;
+    height: 10em;
+    width: 10em;
+}
+main > section > article > div > div{
+    background-color: ;
+    height: 10em;
+    width: 10em;
+    
+
+}
+main > article > div{
+    
+    overflow: hidden;
+
+    background-color: white;
+    width: 10em;
+    height: 20em;
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.552);
+}
+div{
+}
+article.box{
+    display: inline;
+}
+h2{
+    font-family: var(--font02);
+    font-size: 16px;
+    width: 10em;
+    font-weight: 400;
+}
+h1{
+    font-family: var(--font03);
+    font-weight: 400;
+}
+main {
+    display: flex;
+    flex-direction: ;
+  }
+  
+  article.box {
+    margin: 0em;
+    width: 13em;
+    margin-left: 40px;
+  }
+  main > article > div > div#riodejaneiro{
+    background: blue url(../imagens/riodejaneiro.webp)  no-repeat center center;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+}
+main > article > div > div#salvador{
+    background: blue url(../imagens/salvador.jpg)  no-repeat center center;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+}
