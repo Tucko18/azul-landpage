@@ -80,23 +80,54 @@ footer{
     text-align: center;
 }
 
-
+#dowm{
+    margin: auto;
+}
+.material-symbols-outlined{
+    margin: auto;
+}
 .scroll-button {
-    margin: 40vw;
+   margin: 40vw;
     padding: 10px 10px;
     background-color: #000080;
     color: #ffffff;
     text-decoration: none;
     border-radius: 2000px;
-    transition: background-color 2s ease;
- 
+    transition: background-color 2s ease; 
   }
 
   
-  
-  .scroll-button:hover {
+.scroll-button:hover {
     background-color: #191970;
   }
-  #dowm{
+#dowm{
     margin-top: 2em;
   }
+#imagem-index{
+    background: var(--cor02) url(../imagens/aviao-ar.png) no-repeat fixed;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 400px;
+    margin-top: 40px;
+}
+#imagem-ceu{
+    background: var(--cor02) url(../imagens/céu.jpg) no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 400px;
+    margin-top: 40px;
+}
+ a > p {
+    text-align: center;
+
+    color: white;
+    background-color: var(--cor01);
+    padding: 10px;
+    width: 50px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 60px;
+}
+
