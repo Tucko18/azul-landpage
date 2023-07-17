@@ -1,4 +1,4 @@
-User
+
 @charset "UTF-8";
 
 :root{
@@ -13,8 +13,8 @@ User
     --font03: 'Ubuntu', sans-serif;
 }
 
-main > article > div > div#saopaulo{
-    background: blue url(../imagens/sao_paulo.jpg)  no-repeat center bottom;
+main > section > article > div > div#saopaulo{
+    background: blue url(../imagens/sao_paulo.jpg)  no-repeat center bottom ;
     height: 10em;
     width: 10em;
 }
@@ -25,7 +25,7 @@ main > section > article > div > div{
     
 
 }
-main > article > div{
+ article > div{
     
     overflow: hidden;
 
@@ -36,40 +36,62 @@ main > article > div{
 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.552);
 }
-div{
-}
+
 article.box{
     display: inline;
 }
 h2{
     font-family: var(--font02);
-    font-size: 16px;
+    font-size: 14px;
     width: 10em;
     font-weight: 400;
+    padding: 3px;
 }
 h1{
     font-family: var(--font03);
     font-weight: 400;
 }
 main {
-    display: flex;
+    display: ;
     flex-direction: ;
   }
   
   article.box {
     margin: 0em;
     width: 13em;
-    margin-left: 40px;
+    margin-left: 10px;
+    margin-top: -2em;
   }
-  main > article > div > div#riodejaneiro{
-    background: blue url(../imagens/riodejaneiro.webp)  no-repeat center center;
+  main > section > article > div > div#riodejaneiro{
+    background: blue url(../imagens/riodejaneiro.webp)  no-repeat center center ;
     background-size: cover;
     height: 10em;
     width: 10em;
 }
-main > article > div > div#salvador{
-    background: blue url(../imagens/salvador.jpg)  no-repeat center center;
+main > section > article > div > div#miami{
+    background: blue url(../imagens/miami.jpg)  no-repeat center center ;
     background-size: cover;
     height: 10em;
     width: 10em;
+}
+main > section > article > div > div#orlando{
+    background: blue url(../imagens/orlando.jpg)  no-repeat center center ;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+}
+main > section > article > div > div#buenosaires{
+    background: blue url(../imagens/buenosaires.jpg)  no-repeat center center ;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+}
+main > section > article > div > div#lisboa{
+    background: blue url(../imagens/lisboa.jpg)  no-repeat center center ;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+}
+section{
+    display: flex;
 }

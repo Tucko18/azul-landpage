@@ -79,3 +79,24 @@ footer{
     font-family: var(--font03);
     text-align: center;
 }
+
+
+.scroll-button {
+    margin: 40vw;
+    padding: 10px 10px;
+    background-color: #000080;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 2000px;
+    transition: background-color 2s ease;
+ 
+  }
+
+  
+  
+  .scroll-button:hover {
+    background-color: #191970;
+  }
+  #dowm{
+    margin-top: 2em;
+  }
