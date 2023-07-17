@@ -3,7 +3,7 @@
 :root{
     --cor01: #000080;
     --cor02: #191970;
-    --cor03: #f8f8f8;
+    --cor03: #7979b5a3;
     --cor04: #333333;
     --cor05: #FFFF00 ;
 
@@ -16,12 +16,7 @@
     margin: 0px;
 }
 
-header{
 
-}
-header > nav{
-   
-}
 header > nav > ul{
    list-style-type: none;
    margin-top: 10px;
@@ -37,9 +32,7 @@ header > nav > ul.cabeçalho{
 #itens{
     display: none;
 }
-header > nav > ul.cabeçalho > li > a{
-   
-}
+
 .top-list{
     display: inline;
     margin-right: 45vw;
@@ -129,5 +122,141 @@ footer{
     margin: auto;
     margin-top: 40px;
     border-radius: 60px;
+}
+@media print {
+    body{
+        font-family: 'Courier New', Courier, monospace;
+      
+    }
+   
+    main h1{
+        text-shadow: none;
+        color: black;
+        border: 1px solid black;
+    }
+    main::after{
+        content: "Essa impressão foi feita atraves do site ";
+        text-decoration: overline;
+    }
+}
+   
+
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        background: url(../imagens/back-tablet.jpg);
+    }
+   nav#itens{
+    display: inline;
+    color: var(--cor01);
+   }
+   header > nav > ul.cabeçalho{
+    background-color: white;
+    color: var(--cor01);
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-top: -2em;
+}
+
+   nav > ul > li{
+    display: inline;
+    color: var(--cor01);
+
+   }
+  
+   #hamburguer{
+    display: none;
+   }
+   header > nav > ul > li > a{
+    text-decoration: none;
+    font-family: var(--font01);
+    color: var(--cor01);
+    margin-left: 20px;
+    font-size: 0.9em;
+    position: relative;
+}
+
+header > nav > ul > li > a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: var(--cor02);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+nav a:hover::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--cor02);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+#first{
+    margin-left: 140px;
+}
+#logo{
+    display: inline;
+}
+}
+@media  screen and (min-width: 1025px){
+  
+   nav#itens{
+    display: inline;
+    color: var(--cor01);
+   }
+   header > nav > ul.cabeçalho{
+    background-color: white;
+    color: var(--cor01);
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-top: -2em;
+}
+   nav > ul > li{
+    display: inline;
+    color: var(--cor01);
+
+   }
+   #hamburguer{
+    display: none;
+   }
+   header > nav > ul > li > a{
+    text-decoration: none;
+    font-family: var(--font01);
+    color: var(--cor01);
+    margin-left: 20px;
+    position: relative;
+   
+}
+header > nav > ul > li > a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: var(--cor02);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+nav a:hover::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--cor02);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+#logo{
+    display: inline;
+}
+#first{
+    margin-left: 50vw;
+}
 }
 
