@@ -17,10 +17,11 @@ main > section > article > div > div#saopaulo{
     background: blue url(../imagens/sao_paulo.jpg)  no-repeat center bottom ;
     height: 10em;
     width: 10em;
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
 }
 main > section > article > div > div{
-    background-color: ;
-    height: 10em;
+        height: 10em;
     width: 10em;
     
 
@@ -35,6 +36,8 @@ main > section > article > div > div{
     border-radius: 20px;
 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.552);
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
 }
 
 
@@ -52,15 +55,11 @@ h1{
     font-family: var(--font03);
     font-weight: 400;
 }
-main {
-    display: ;
-    flex-direction: ;
-  }
   
   article.box {
     margin: 0em;
     width: 13em;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-top: -2em;
   }
   main > section > article > div > div#riodejaneiro{
@@ -68,31 +67,111 @@ main {
     background-size: cover;
     height: 10em;
     width: 10em;
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
 }
 main > section > article > div > div#miami{
     background: blue url(../imagens/miami.jpg)  no-repeat center center ;
     background-size: cover;
     height: 10em;
     width: 10em;
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
 }
 main > section > article > div > div#orlando{
     background: blue url(../imagens/orlando.jpg)  no-repeat center center ;
     background-size: cover;
     height: 10em;
     width: 10em;
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
 }
 main > section > article > div > div#buenosaires{
     background: blue url(../imagens/buenosaires.jpg)  no-repeat center center ;
     background-size: cover;
     height: 10em;
     width: 10em;
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
 }
 main > section > article > div > div#lisboa{
     background: blue url(../imagens/lisboa.jpg)  no-repeat center center ;
     background-size: cover;
     height: 10em;
     width: 10em;
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
 }
 section{
     display: flex;
+}
+.bandeiras{
+    width: 25px;
+}
+@media  screen and (min-width: 768px) and (max-width: 1024px){
+    article > div{
+    
+        overflow: hidden;
+    
+        background-color: white;
+        width: 20em;
+        height: 20em;
+        border-radius: 20px;
+    
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.552);
+    }
+    article.box {
+        margin: 0em;
+        width: 38em;
+        margin-left: 60px;
+        margin-top: -2em;
+      }
+      main > section > article > div > div#lisboa{
+        background: blue url(../imagens/lisboa.jpg)  no-repeat center center ;
+        background-size: cover;
+        height: 10em;
+        width: 20em;
+    }
+    main > section > article > div > div#buenosaires{
+        background: blue url(../imagens/buenosaires.jpg)  no-repeat center center ;
+        background-size: cover;
+        height: 10em;
+        width: 20em;
+    }
+    main > section > article > div > div#orlando{
+        background: blue url(../imagens/orlando.jpg)  no-repeat center center ;
+        background-size: cover;
+        height: 10em;
+        width: 20em;
+    }
+    main > section > article > div > div#miami{
+        background: blue url(../imagens/miami.jpg)  no-repeat center center ;
+        background-size: cover;
+        height: 10em;
+        width: 20em;
+    }
+    main > section > article > div > div#riodejaneiro{
+        background: blue url(../imagens/riodejaneiro.webp)  no-repeat center center ;
+        background-size: cover;
+        height: 10em;
+        width: 20em;
+    }
+    main > section > article > div > div#saopaulo{
+        background: blue url(../imagens/sao_paulo.jpg)  no-repeat center bottom ;
+        height: 10em;
+        width: 20em;
+    }
+    h2{
+        font-family: var(--font02);
+        font-size: 16px;
+        width: 19em;
+        font-weight: 400;
+        padding: 10px;
+    }
+    h1{
+        font-family: var(--font03);
+        font-weight: 400;
+        padding: 10px;
+    }
+    
 }

@@ -101,7 +101,7 @@ footer{
     background-position: center center;
     background-size: cover;
     width: 100vw;
-    height: 400px;
+    height: 200px;
     margin-top: 40px;
 }
 #imagem-ceu{
@@ -141,7 +141,7 @@ footer{
 }
    
 
-@media  screen and (min-width: 768px) and (max-width: 1024px) {
+@media  screen and (min-width: 768px){
     body{
         background: url(../imagens/back-tablet.jpg);
     }
@@ -198,65 +198,21 @@ nav a:hover::after{
 
 #first{
     margin-left: 140px;
+    transition: margin-left 0.2s;
+    transition-timing-function: ease-in-out;
 }
 #logo{
     display: inline;
 }
 }
-@media  screen and (min-width: 1025px){
-  
-   nav#itens{
-    display: inline;
-    color: var(--cor01);
-   }
-   header > nav > ul.cabeçalho{
-    background-color: white;
-    color: var(--cor01);
-    font-size: 1.5em;
-    text-decoration: none;
-    margin-top: -2em;
+@media  screen and (min-width: 1025px) and (max-width: 1385px){
+    #first{
+        margin-left: 16em;
+    }
 }
-   nav > ul > li{
-    display: inline;
-    color: var(--cor01);
-
-   }
-   #hamburguer{
-    display: none;
-   }
-   header > nav > ul > li > a{
-    text-decoration: none;
-    font-family: var(--font01);
-    color: var(--cor01);
-    margin-left: 20px;
-    position: relative;
-   
-}
-header > nav > ul > li > a::after{
-    content: "";
-    width: 0%;
-    height: 4px;
-    background-color: var(--cor02);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s ease-in-out;
-}
-nav a:hover::after{
-    content: "";
-    width: 100%;
-    height: 4px;
-    background-color: var(--cor02);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    
-}
-#logo{
-    display: inline;
-}
-#first{
-    margin-left: 50vw;
-}
+@media  screen and (min-width: 1386px){
+    #first{
+        margin-left: 35em;
+    }
 }
 
