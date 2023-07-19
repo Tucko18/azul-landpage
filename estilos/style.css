@@ -106,6 +106,57 @@ footer{
     height: 200px;
     margin-top: 40px;
 }
+div.janela-aviao{
+    background: var(--cor01) no-repeat center top fixed;
+    background-size: cover;
+    width: 100px;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: 10px solid rgb(187, 187, 187);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.571);
+    transition: width  1s, height 1s;
+    transition-timing-function: ease;
+}
+div#lisboa{
+    background: url(../imagens/lisboa.jpg) no-repeat center bottom ;
+    background-size: cover;
+
+}
+div#riodejaneiro{
+    background: url(../imagens/riodejaneiro.webp) no-repeat center center;
+    background-size: cover;
+
+}
+div#miami{
+    background: url(../imagens/miami.jpg) no-repeat center right;
+    background-size: cover;
+
+}
+
+div#buenosaires{
+    background: url(../imagens/buenosaires.jpg) no-repeat center center;
+    background-size: cover;
+    display: none;
+}
+div#orlando{
+    background: url(../imagens/orlando.jpg) no-repeat center center;
+    background-size: cover;
+    display: none;
+}
+div#salvador{
+    background: url(../imagens/sao_paulo.jpg) no-repeat center center;
+    background-size: cover;
+    display: none;
+}
+ul > li {
+    display: inline-block;
+    
+}
+ul{
+    margin: auto;
+}
 #imagem-ceu{
     background: var(--cor02) url(../imagens/céu.jpg) no-repeat ;
     background-position: center center;
@@ -206,15 +257,69 @@ nav a:hover::after{
 #logo{
     display: inline;
 }
+div.janela-aviao{
+    width: 150px;
+    height: 300px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: 10px solid rgb(187, 187, 187);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.571);
+
+    transition: width  1s, height 1s;
+    transition-timing-function: ease;
+}
+div#buenosaires{
+    background: url(../imagens/buenosaires.jpg) no-repeat center center;
+    background-size: cover;
+    display: block;
+
+}
+
 }
 @media  screen and (min-width: 1025px) and (max-width: 1385px){
     #first{
         margin-left: 16em;
     }
+    div#orlando{
+        display: block;
+    }
+    div.janela-aviao{
+        width: 150px;
+        height: 300px;
+        margin-left: 28px;
+        margin-top: 20px;
+        border-radius: 40px;
+        border: 10px solid rgb(187, 187, 187);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.571);
+
+        transition: width  1s, height 1s;
+    transition-timing-function: ease;
+    }
+
 }
 @media  screen and (min-width: 1386px){
     #first{
         margin-left: 35em;
     }
+    div#orlando{
+        display: block;
+    }
+    div#salvador{
+        display: block;
+    }
+    div.janela-aviao{
+        width: 200px;
+        height: 400px;
+        margin-left: 30px;
+        margin-top: 20px;
+        border-radius: 40px;
+        border: 10px solid rgb(187, 187, 187);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.571);
+
+        transition: width  1s, height 1s;
+    transition-timing-function: ease;
+    }
+
 }
 

@@ -14,7 +14,7 @@
 }
 
 main > section > article > div > div#saopaulo{
-    background: blue url(../imagens/sao_paulo.jpg)  no-repeat center bottom ;
+    background: blue url(../imagens/sao_paulo.jpg)  no-repeat  top center;
     background-size: cover;
     height: 10em;
     width: 10em;
@@ -294,7 +294,7 @@ section{
         width: 25em;
     }
     main > section > article > div > div#saopaulo{
-        background: blue url(../imagens/sao_paulo.jpg)  no-repeat center top ;
+        background: blue url(../imagens/sao_paulo.jpg)  no-repeat top center ;
         background-size: cover;
         height: 10em;
         width: 25em;
