@@ -35,7 +35,7 @@ header > nav > ul.cabeçalho{
 
 .top-list{
     display: inline;
-    margin-right: 45vw;
+    margin-right: 30vw;
 }
 header > nav > ul > li{
     text-align: center;
@@ -50,6 +50,8 @@ header > nav > ul > li > a{
 }
 #logo-azul{
     width: 150px;
+    padding: 20px;
+    
 }
 section{
     font-family: var(--font02);
