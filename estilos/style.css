@@ -96,6 +96,7 @@ footer{
     background-color: #191970;
   }
 #dowm{
+    margin: auto;
     margin-top: 2em;
   }
 #imagem-index{
@@ -109,9 +110,9 @@ footer{
 div.janela-aviao{
     background: var(--cor01) no-repeat center top fixed;
     background-size: cover;
-    width: 100px;
+    width: 90px;
     height: 200px;
-    margin-left: 15px;
+    margin-left: 9px;
     margin-top: 20px;
     border-radius: 40px;
     border: 10px solid rgb(187, 187, 187);
@@ -119,12 +120,12 @@ div.janela-aviao{
     transition: width  1s, height 1s;
     transition-timing-function: ease;
 }
-div#lisboa{
+ul#voos > li > div#lisboa{
     background: url(../imagens/lisboa.jpg) no-repeat center bottom ;
     background-size: cover;
 
 }
-div#riodejaneiro{
+ul#voos > li > div#riodejaneiro{
     background: url(../imagens/riodejaneiro.webp) no-repeat center center;
     background-size: cover;
 
@@ -135,22 +136,22 @@ div#miami{
 
 }
 
-div#buenosaires{
+ul#voos > li > div#buenosaires{
     background: url(../imagens/buenosaires.jpg) no-repeat center center;
     background-size: cover;
     display: none;
 }
-div#orlando{
+ul#voos > li > div#orlando{
     background: url(../imagens/orlando.jpg) no-repeat center center;
     background-size: cover;
     display: none;
 }
-div#salvador{
+ul#voos > li > div#salvador{
     background: url(../imagens/sao_paulo.jpg) no-repeat center center;
     background-size: cover;
     display: none;
 }
-ul > li {
+ul#voos > li {
     display: inline-block;
     
 }
