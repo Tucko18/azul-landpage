@@ -158,6 +158,11 @@ ul#voos > li {
 ul{
     margin: auto;
 }
+article#fundo-aviao{
+    background: rgba(233, 231, 231, 0.508);
+    background-size: contain;
+    border-radius: 20px;
+}
 #imagem-ceu{
     background: var(--cor02) url(../imagens/céu.jpg) no-repeat ;
     background-position: center center;
@@ -261,7 +266,7 @@ nav a:hover::after{
 div.janela-aviao{
     width: 150px;
     height: 300px;
-    margin-left: 15px;
+    margin-left: 25px;
     margin-top: 20px;
     border-radius: 40px;
     border: 10px solid rgb(187, 187, 187);
@@ -270,7 +275,7 @@ div.janela-aviao{
     transition: width  1s, height 1s;
     transition-timing-function: ease;
 }
-div#buenosaires{
+ul#voos > li > div#buenosaires{
     background: url(../imagens/buenosaires.jpg) no-repeat center center;
     background-size: cover;
     display: block;
@@ -282,7 +287,7 @@ div#buenosaires{
     #first{
         margin-left: 16em;
     }
-    div#orlando{
+    ul#voos > li > div#orlando{
         display: block;
     }
     div.janela-aviao{
@@ -303,10 +308,10 @@ div#buenosaires{
     #first{
         margin-left: 35em;
     }
-    div#orlando{
+    ul#voos > li > div#orlando{
         display: block;
     }
-    div#salvador{
+    ul#voos > li > div#salvador{
         display: block;
     }
     div.janela-aviao{
