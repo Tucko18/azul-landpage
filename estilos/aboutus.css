@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #000080;
+    --cor02: #191970;
+    --cor03: #7979b5a3;
+    --cor04: #333333;
+    --cor05: #FFFF00 ;
+
+    --font01: 'Poppins', sans-serif;
+    --font02: 'Raleway', sans-serif;
+    --font03: 'Ubuntu', sans-serif;
+}
+
+div#aviao-ceu{
+    background: var(--cor01) url(../imagens/aviao-ceu.jpg) no-repeat center top fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 30vh;
+}
+div#comissarios{
+    background: var(--cor01) url(../imagens/avioes-turbina.webp) no-repeat top;
+    background-size: cover;
+    width: 100vw;
+    height: 30vh;
+}
+div#aviao-mar{
+    background: var(--cor01) url(../imagens/aviao-mar.jpg) no-repeat center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 30vh;
+}

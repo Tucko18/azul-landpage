@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="">
     <title>Document</title>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
 </head>
 <body>
     <header>
@@ -30,7 +35,7 @@
     </header>
     <main>
         <section>
-            <h1>Bem-vindo à Azul Airlines</h1>
+            <h1 class="headline">Bem-vindo à Azul Airlines</h1>
             <p>Seja bem-vindo à Azul Airlines, a companhia aérea que leva você a descobrir o mundo com conforto, qualidade e segurança. Com um compromisso inabalável em proporcionar a melhor experiência de voo, estamos aqui para tornar cada jornada uma aventura memorável.</p>
             
         </section>
@@ -39,42 +44,48 @@
                 <p>expand_more</p>
                 </span></a>
         </div>
-        <div id="imagem-index"></div>
+        <div id="imagem-index" class="punchline"></div>
         
 
     <section id="section-destinos">
-        <h1>Nossos Valores: Qualidade, Inovação e Sustentabilidade</h1>
+        <h1 class="headline">Nossos Valores: Qualidade, Inovação e Sustentabilidade</h1>
         <p>Na Azul Airlines, acreditamos que nossos valores são a base do nosso sucesso. Comprometidos em oferecer a melhor experiência de voo, estamos guiados pelos seguintes princípios</p>
-        <div id="imagem-ceu"></div>
+        <div id="dowm">
+            <a href="#destination" class="scroll-button"><span class="material-symbols-outlined">
+                <p>expand_more</p>
+                </span></a>
+        </div>
+        <div id="imagem-ceu" class="punchline"></div>
    </section>
-   <section>
-            <h1>Voe com a azul para lugares incriveis</h1>
+ 
+   <section id="destination">
+            <h1 class="headline">Voe com a azul para lugares incriveis</h1>
             <p>Na Azul Airlines, nossa paixão é levar você a destinos emocionantes e inesquecíveis. De praias paradisíacas a metrópoles vibrantes, temos o compromisso de proporcionar viagens que irão encantar seus sentidos e criar memórias para toda a vida.</p>
             <article id="fundo-aviao">
                 <ul id="voos">
                     <li>
-                        <div class="janela-aviao" id="riodejaneiro"></div>
+                        <div class="janela-aviao" id="riodejaneiro" class="punchline"></div>
                     </li>
                     <li>
-                        <div class="janela-aviao" id="salvador"></div>
+                        <div class="janela-aviao" id="salvador" class="punchline"></div>
                     </li>
                     <li>
-                        <div class="janela-aviao" id="miami"></div>
+                        <div class="janela-aviao" id="miami" class="punchline"></div>
                     </li>
                     <li>
-                        <div class="janela-aviao" id="lisboa"></div>
+                        <div class="janela-aviao" id="lisboa" class="punchline"></div>
                     </li>
                     <li>
-                        <div class="janela-aviao" id="buenosaires"></div>
+                        <div class="janela-aviao" id="buenosaires" class="punchline"></div>
                     </li>
                     <li>
-                        <div class="janela-aviao" id="orlando"></div>
+                        <div class="janela-aviao" id="orlando" class="punchline" class="punchline"></div>
                     </li>
                 </ul>
             </article>
    </section>
         <section>
-            <h1>Site oficial</h1>
+            <h1 class="headline">Site oficial</h1>
             <p>Convidamos você a explorar nosso site oficial, onde você encontrará informações detalhadas sobre nossos destinos, serviços exclusivos, ofertas especiais e muito mais.</p>
             <a href="https://www.voeazul.com.br/br/pt/home" target="_blank"><p>Clique aqui</p></a>
         </section>
@@ -90,6 +101,9 @@
                 itens.style.display = 'block'
             }
         }
+        ScrollReveal().reveal('.headline', { delay: 200});
+        ScrollReveal().reveal('.tagline', { delay: 500 });
+        ScrollReveal().reveal('.punchline', { delay: 500 });
     </script>
 </body>
 </html>
