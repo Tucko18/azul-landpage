@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/destination.css">
     <title>Document</title>
@@ -31,44 +32,44 @@
     <main>
        <section>
            
-           <article  class="box" >
-                <div>
-                    <div id="saopaulo"></div> <div> <h1>São Paulo</h1><h2>A maior cidade do Brasil, oferecendo uma mistura vibrante de cultura, gastronomia e vida noturna.</h2></div>
+           <article  class="box" class="punchline">
+                <div >
+                    <div id="saopaulo"></div> <div> <h1>São Paulo</h1><h2>The largest city in Brazil, offering a vibrant mix of culture, food and nightlife.</h2></div>
                 </div>
            </article>
            
-           <article  class="box">
+           <article  class="box" class="punchline">
             <div>
-                <div id="riodejaneiro"></div> <div> <h1>Rio de Janeiro</h1><h2>Conhecido por suas deslumbrantes praias, montanhas icônicas e a famosa estátua do Cristo Redentor.</h2></div>
+                <div id="riodejaneiro"></div> <div> <h1>Rio de Janeiro</h1><h2>Known for its stunning beaches, iconic mountains and the famous Christ the Redeemer statue.</h2></div>
             </div>
         </article>
        </section>
 
         <section>
          
-            <article  class="box">
+            <article  class="box" class="punchline">
                 <div>
-                    <div id="miami"></div> <div> <h1>Miami</h1><h2>Uma cidade vibrante e cosmopolita, com praias ensolaradas, compras de classe mundial e uma cena artística e gastronômica diversificada.</h2></div>
+                    <div id="miami"></div> <div> <h1>Miami</h1><h2>A vibrant and cosmopolitan city, with sunny beaches, world-class shopping, and a diverse artistic and gastronomic scene.</h2></div>
                 </div>
             </article>
             
-            <article  class="box">
+            <article  class="box punchline">
                 <div>
-                    <div id="orlando"></div> <div> <h1>Orlando</h1><h2>Um destino popular para famílias, oferecendo parques temáticos emocionantes, como a Disney World e a Universal Studios.</h2></div>
+                    <div id="orlando"></div> <div> <h1>Orlando</h1><h2>A popular destination for families, offering exciting theme parks such as Disney World and Universal Studios.</h2></div>
                 </div>
             </article>
         </section>
         <section>
          
-            <article  class="box">
+            <article  class="box punchline">
                 <div>
-                    <div id="lisboa"></div> <div> <h1>Lisboa</h1><h2> A capital portuguesa, conhecida por sua arquitetura encantadora, ruelas de paralelepípedos e atmosfera cativante..</h2></div>
+                    <div id="lisboa"></div> <div> <h1>Lisboa</h1><h2>The Portuguese capital, known for its charming architecture, cobblestone streets, and captivating atmosphere</h2></div>
                 </div>
             </article>
             
-            <article  class="box">
+            <article  class="box punchline">
                 <div>
-                    <div id="buenosaires"></div> <div> <h1>Buenos Aires</h1><h2>Uma cidade apaixonante, famosa por sua paixão pelo tango, deliciosa culinária e arquitetura elegante.</h2></div>
+                    <div id="buenosaires"></div> <div> <h1>Buenos Aires</h1><h2>An enchanting city, famous for its passion for tango, delicious cuisine, and elegant architecture.</h2></div>
                 </div>
             </article>
         </section>
@@ -86,6 +87,9 @@
                 itens.style.display = 'block'
             }
         }
+        ScrollReveal().reveal('.headline', { delay: 100});
+        ScrollReveal().reveal('.tagline', { delay: 100 });
+        ScrollReveal().reveal('.punchline', { delay: 300 });
     </script>
 </body>
 </html>
