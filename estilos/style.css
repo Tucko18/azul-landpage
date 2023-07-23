@@ -105,8 +105,8 @@ footer{
   }
 
 #imagem-index{
-    background: var(--cor02) url(../imagens/aviao-ar.png) no-repeat ;
-    background-position: center center;
+    background: var(--cor02) url(../imagens/aviao-ar.png) no-repeat fixed;
+    background-position: center left;
     background-size: cover;
     width: 100vw;
     height: 200px;
@@ -126,7 +126,7 @@ div.janela-aviao{
     transition-timing-function: ease;
 }
 ul#voos > li > div#lisboa{
-    background: url(../imagens/lisboa.jpg) no-repeat center bottom ;
+    background: url(../imagens/lisboa.jpg) no-repeat center center ;
     background-size: cover;
 
 }
@@ -169,11 +169,11 @@ article#fundo-aviao{
     border-radius: 20px;
 }
 #imagem-ceu{
-    background: var(--cor02) url(../imagens/céu.jpg) no-repeat ;
+    background: var(--cor02) url(../imagens/céu.png) no-repeat fixed;
     background-position: center center;
     background-size: cover;
     width: 100vw;
-    height: 400px;
+    height: 200px;
     margin-top: 40px;
 }
  a > p {
