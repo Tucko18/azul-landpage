@@ -102,6 +102,38 @@ main > section > article > div > div#lisboa{
     transition: width 0.3s;
     transition-timing-function: ease-in-out;
 }
+main > section > article > div > div#amsterdam{
+    background: blue url(../imagens/amsterda.jpg)  no-repeat center center ;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
+}
+main > section > article > div > div#rome{
+    background: blue url(../imagens/roma.jpg)  no-repeat center center ;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
+}
+main > section > article > div > div#los-angeles{
+    background: blue url(../imagens/los-angeles.jpg)  no-repeat center center ;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
+}
+main > section > article > div > div#vancouver{
+    background: blue url(../imagens/vancouver.jpg)  no-repeat center center ;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+    transition: width 0.3s;
+    transition-timing-function: ease-in-out;
+}
 section{
     display: flex;
 }
@@ -115,7 +147,7 @@ section{
     
         background-color: white;
         width: 20em;
-        height: 20em;
+        height: 25em;
         border-radius: 20px;
     
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.552);
@@ -129,36 +161,59 @@ section{
       main > section > article > div > div#lisboa{
         background: blue url(../imagens/lisboa.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 16em;
         width: 20em;
     }
     main > section > article > div > div#buenosaires{
         background: blue url(../imagens/buenosaires.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 16em;
         width: 20em;
     }
     main > section > article > div > div#orlando{
         background: blue url(../imagens/orlando.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 16em;
         width: 20em;
     }
     main > section > article > div > div#miami{
         background: blue url(../imagens/miami.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 16em;
         width: 20em;
     }
     main > section > article > div > div#riodejaneiro{
         background: blue url(../imagens/riodejaneiro.webp)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 16em;
         width: 20em;
     }
     main > section > article > div > div#saopaulo{
-        background: blue url(../imagens/sao_paulo.jpg)  no-repeat center bottom ;
-        height: 10em;
+        background: blue url(../imagens/sao_paulo.jpg)  no-repeat center;
+        height: 16em;
+        width: 20em;
+    }
+    main > section > article > div > div#amsterdam{
+        background: blue url(../imagens/amsterda.jpg)  no-repeat center ;
+        background-size: auto;
+        height: 16em;
+        width: 20em;
+    }
+    main > section > article > div > div#rome{
+        background-position: right;
+        background-size: auto;
+        height: 16em;
+        width: 20em;
+    }
+    main > section > article > div > div#los-angeles{
+        background-size: auto;
+        height: 16em;
+        width: 20em;
+    }
+    main > section > article > div > div#vancouver{
+        background-position: right;
+        background-size: auto;
+        height: 16em;
         width: 20em;
     }
     h2{
@@ -182,7 +237,7 @@ section{
     
         background-color: white;
         width: 25em;
-        height: 20em;
+        height: 25em;
         border-radius: 20px;
     
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.552);
@@ -196,37 +251,57 @@ section{
       main > section > article > div > div#lisboa{
         background: blue url(../imagens/lisboa.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 15em;
         width: 25em;
     }
     main > section > article > div > div#buenosaires{
         background: blue url(../imagens/buenosaires.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 15em;
         width: 25em;
     }
     main > section > article > div > div#orlando{
         background: blue url(../imagens/orlando.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 15em;
         width: 25em;
     }
     main > section > article > div > div#miami{
         background: blue url(../imagens/miami.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 15em;
         width: 25em;
     }
     main > section > article > div > div#riodejaneiro{
         background: blue url(../imagens/riodejaneiro.webp)  no-repeat center top ;
         background-size: cover;
-        height: 10em;
+        height: 15em;
         width: 25em;
     }
     main > section > article > div > div#saopaulo{
-        background: blue url(../imagens/sao_paulo.jpg)  no-repeat center top ;
+        background: blue url(../imagens/sao_paulo.jpg)  no-repeat center;
         background-size: cover;
-        height: 10em;
+        height: 15em;
+        width: 25em;
+    }
+    main > section > article > div > div#rome {
+        background-size: cover;
+        height: 15em;
+        width: 25em;
+    }
+    main > section > article > div > div#amsterdam {
+        background-size: cover;
+        height: 15em;
+        width: 25em;
+    }
+    main > section > article > div > div#los-angeles {
+        background-size: cover;
+        height: 15em;
+        width: 25em;
+    }
+    main > section > article > div > div#vancouver {
+        background-size: cover;
+        height: 15em;
         width: 25em;
     }
     h2{
@@ -251,7 +326,7 @@ section{
     
         background-color: white;
         width: 25em;
-        height: 20em;
+        height: 30em;
         border-radius: 20px;
     
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.552);
@@ -265,38 +340,99 @@ section{
       main > section > article > div > div#lisboa{
         background: blue url(../imagens/lisboa.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 17em;
         width: 25em;
+        transition: height 1s;
+    }
+    main > section > article > div > div#lisboa:hover{
+        height: 22em;
     }
     main > section > article > div > div#buenosaires{
         background: blue url(../imagens/buenosaires.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 17em;
         width: 25em;
+        transition: height 1s;
+
+    }
+    main > section > article > div > div#buenosaires:hover{
+        height: 22em;
     }
     main > section > article > div > div#orlando{
         background: blue url(../imagens/orlando.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 17em;
         width: 25em;
+        transition: height 1s;
+    }
+    main > section > article > div > div#orlando:hover{
+        height: 22em;
     }
     main > section > article > div > div#miami{
         background: blue url(../imagens/miami.jpg)  no-repeat center center ;
         background-size: cover;
-        height: 10em;
+        height: 17em;
         width: 25em;
+        transition: height 1s;
+    }
+    main > section > article > div > div#miami:hover{
+        height: 22em;
     }
     main > section > article > div > div#riodejaneiro{
         background: blue url(../imagens/riodejaneiro.webp)  no-repeat center top ;
         background-size: cover;
-        height: 10em;
+        height: 17em;
         width: 25em;
+        transition: height 1s;
+    }
+    main > section > article > div > div#riodejaneiro:hover{
+        height: 22em;
     }
     main > section > article > div > div#saopaulo{
-        background: blue url(../imagens/sao_paulo.jpg)  no-repeat top center ;
+        background: blue url(../imagens/sao_paulo.jpg)  no-repeat center ;
         background-size: cover;
-        height: 10em;
+        height: 17em;
+        width: 25em;        
+        transition: height 1s;
+    }
+    main > section > article > div > div#saopaulo:hover{
+        height: 22em;
+    }
+    main > section > article > div > div#rome {
+        background-size: cover;
+        height: 17em;
         width: 25em;
+        transition: height 1s;
+    }
+    main > section > article > div > div#rome:hover{
+        height: 22em;
+    }
+    main > section > article > div > div#amsterdam {
+        background-size: cover;
+        height: 17em;
+        width: 25em;
+        transition: height 1s;
+    }
+    main > section > article > div > div#amsterdam:hover{
+        height: 22em;
+    }
+    main > section > article > div > div#los-angeles {
+        background-size: cover;
+        height: 17em;
+        width: 25em;
+        transition: height 1s;
+    }
+    main > section > article > div > div#los-angeles:hover{
+        height: 22em;
+    }
+    main > section > article > div > div#vancouver {
+        background-size: cover;
+        height: 17em;
+        width: 25em;
+        transition: height 1s;
+    }
+    main > section > article > div > div#vancouver:hover{
+        height: 22em;
     }
     h2{
         font-family: var(--font02);
