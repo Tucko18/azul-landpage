@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #000080;
+    --cor02: #191970;
+    --cor03: #f8f8f8;
+    --cor04: #333333;
+    --cor05: #FFFF00 ;
+
+    --font01: 'Poppins', sans-serif;
+    --font02: 'Raleway', sans-serif;
+    --font03: 'Ubuntu', sans-serif;
+}
+h2{
+    margin: 20px;
+}
+main > section > ul > li{
+    font-family: var(--font03);
+    margin: 20px;
+    list-style: none;
+}
+main > section > ul > li.phone-number{
+    font-weight: 900;
+}
+iframe{
+    margin: 20px;
+    width: 90vw;
+    border-radius: 20px;
+}
